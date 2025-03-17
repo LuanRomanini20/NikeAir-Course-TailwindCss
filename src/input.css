@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+    --font-family-poppins: Poppins;
+    --background-image-bgfundo: url('/assets/bg.png');
+    --background-image-tenis: url('/assets/tenis.png');
+}
