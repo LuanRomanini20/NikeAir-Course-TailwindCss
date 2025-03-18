@@ -4,4 +4,33 @@
     --font-family-poppins: Poppins;
     --background-image-bgfundo: url('/assets/bg.png');
     --background-image-tenis: url('/assets/tenis.png');
+
+    --animate-floatRight: floatRight 2.5s infinite;
+    --animate-opacityPulse: opacityPulse 2.5s infinite;
 }
+
+@keyframes floatRight {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(8px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes opacityPulse{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+  
